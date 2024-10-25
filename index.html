@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prosta Strona z Tłem</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://i.imgur.com/QNFVhFX.png'); /* Zamień link na URL swojego obrazu */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .text-container {
+            position: relative;
+            top: -150px; /* Przesuwa element wyżej */
+            background-color: rgba(0, 0, 0, 0.5); /* Półprzezroczyste tło dla tekstu */
+            color: rgb(211, 87, 4);
+            padding: 100px;
+            border-radius: 80px;
+            text-align: center; /* Wyśrodkowanie głównego tekstu */
+        }
+
+        h1 {
+            font-size: 2.5em; /* Zmniejszony rozmiar czcionki */
+            margin: 0;
+            text-shadow: 
+                3px 3px 0 #000,   /* cień w prawo i w dół */
+                -3px 3px 0 #000,  /* cień w lewo i w dół */
+                3px -3px 0 #000,  /* cień w prawo i w górę */
+                -3px -3px 0 #000; /* cień w lewo i w górę */
+        }
+
+        .orange-text {
+            color: #FFA500; /* Pomarańczowy kolor */
+            font-size: 1.3em; /* Zmniejszony rozmiar czcionki */
+            margin-top: 10px; /* Odstęp od góry */
+        }
+
+        .highlight {
+            color: #FF3300;
+            font-size: 1.5em; /* Zmniejszony rozmiar czcionki */
+        }
+
+        .bold-text {
+            color: #9900FF;
+            font-weight: bold;
+        }
+
+        .thank-you {
+            color: #e70707;
+            margin-top: 20px;
+            font-weight: 600; /* Lekko pogrubione */
+            font-size: 1.5em; /* Zmniejszony rozmiar czcionki */
+        }
+
+        .greeting {
+            color: #D3D3D3; /* Jasnoszary kolor */
+            font-size: 1.0em; /* Zmniejszony rozmiar czcionki */
+            margin-top: 10px; /* Odstęp od poprzedniego tekstu */
+            text-align: center; /* Wyśrodkowanie tekstu */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="text-container">
+        <h1>Halloweenowa Wyspa Wariata na TabMc.pl</h1>
+        <p class="orange-text">Cały eventowy warp powstał z ponad 160 tysięcy bloków!</p>
+        <p class="orange-text">Itemy do jego budowy zdobyłem głównie ze sklepu,</p>
+        <p class="orange-text">lecz nie wszystkie z nich były tam dostępne, dlatego sam musiałem przepalać i kraftować,</p>
+        <p class="orange-text">co zjadało bardzo dużo czasu.</p>
+        <p class="orange-text">Projekt pochłonął ponad 36h ciągłej budowy!</p>
+        <p class="highlight">Projekt powstał przy współpracy z <span class="bold-text">Netherix Studios</span>, które dostarczyło mi plan budowy!</p>
+        <p class="thank-you">Dziękuję, że mogłem wziąć w tym udział ❤️</p>
+        <p class="greeting">~Pozdrawiam Wariacik0_</p> <!-- Dodany nowy tekst -->
+    </div>
+
+</body>
+</html>
